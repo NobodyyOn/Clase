@@ -11,6 +11,8 @@ switch (palabra) {
     case "carro":
         console.log("Es un carro");
         break;
+    case "casa":
+        console.log("Es una casa");
     default:
         break;
 }
