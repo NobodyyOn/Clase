@@ -10,7 +10,7 @@ switch (palabra) {
         break;
     case "carro":
         console.log("Es un carro");
-        
+        break;
     default:
         break;
 }
