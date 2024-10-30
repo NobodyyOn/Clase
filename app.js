@@ -2,9 +2,9 @@
 const palabras = ["cama", "carro", "casa"];
 
 // Variable que contiene una palabra
-let palabra = Math.floor(Math.random() * palabras.lenght);
+let palabra = [Math.floor(Math.random() * palabras.length)];
 
-switch (palabra) {
+switch (palabras[palabra]) {
     case "cama":
         console.log("Es una cama");
         break;
