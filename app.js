@@ -1,11 +1,16 @@
+// Arreglo de palabras
+const palabras = ["cama", "carro", "casa"];
+
 // Variable que contiene una palabra
-let palabra = "Cama"
+let palabra = Math.floor(Math.random() * palabras.lenght);
 
 switch (palabra) {
-    case "Cama":
+    case "cama":
         console.log("Es una cama");
         break;
-
+    case "carro":
+        console.log("Es un carro");
+        
     default:
         break;
 }
